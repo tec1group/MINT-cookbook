@@ -385,7 +385,7 @@ So in summary, you can make code conditionally executed by putting a boolean val
 MINT also provides the ability to perform an IF...THEN...ELSE... constructions by using
 
 ```
-:Y 100 > \( `greater than 100` )(` less than or equal to 100` ) ;
+:Y 100 > ( `greater than 100` )(` less than or equal to 100` ) ;
 ```
 
 If the condition is true then the code between `\(` and `)` is executed else if the condition is false then the code between `(` and `)` is executed.
